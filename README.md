@@ -9,7 +9,12 @@
 > Always use in an **isolated, controlled environment**. Never analyze malware on production systems.
 
 ---
+<img width="1014" height="761" alt="Screenshot From 2026-03-22 16-51-43" src="https://github.com/user-attachments/assets/a46c419d-c1ab-4c1a-b032-63868d979fe7" />
+<img width="1014" height="761" alt="Screenshot From 2026-03-22 16-52-51" src="https://github.com/user-attachments/assets/e5bad7b5-33e9-4efb-96c9-cf13dcbd080d" />
 
+
+
+---
 ## 📋 Table of Contents
 
 - [Overview](#overview)

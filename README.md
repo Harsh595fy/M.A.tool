@@ -112,8 +112,8 @@ MalwareSandboxGUI
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/hsr-malware-sandbox.git
-cd hsr-malware-sandbox
+git clone https://github.com/Harsh595fy/M.A.tool.git
+cd M.A.tool
 ```
 
 ### 2. Install Core Dependencies

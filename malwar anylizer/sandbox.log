@@ -1,0 +1,66 @@
+2026-03-22 16:49:06,912 - MalwareSandbox - WARNING - YARA rules directory not found: rules/
+2026-03-22 16:50:24,097 - MalwareSandbox - INFO - ============================================================
+2026-03-22 16:50:24,097 - MalwareSandbox - INFO - Starting FULL ANALYSIS of: /home/hero/Desktop/tools/TheFatRat/APKS/x86/BaiduBrowser.apk
+2026-03-22 16:50:24,097 - MalwareSandbox - INFO - File Type: APK
+2026-03-22 16:50:24,097 - MalwareSandbox - INFO - ============================================================
+2026-03-22 16:50:24,113 - MalwareSandbox - INFO - 
+[1/4] Performing Static Analysis...
+2026-03-22 16:50:24,184 - MalwareSandbox - INFO - Found AndroidManifest.xml, performing basic analysis...
+2026-03-22 16:50:24,188 - MalwareSandbox - INFO - 
+==================================================
+ANDROID APK ANALYSIS REPORT
+==================================================
+File: /home/hero/Desktop/tools/TheFatRat/APKS/x86/BaiduBrowser.apk
+
+File Hashes:
+  MD5: 6d903df56af11be281d24a49f9461483
+  SHA1: bb5add9fc4955135749726052af5e42f560d99a7
+  SHA256: adee4b084ed9ac3af578336c9a80a16647e85b966cb18e248e946e16a3701703
+
+Suspicious Indicators Found:
+  [!] Suspicious files: assets/icons/site_card/home_icon_libero.png, assets/icons/subscription_site/libero.png, lib/, lib/armeabi/, lib/armeabi/libextra7z.so
+
+2026-03-22 16:50:24,191 - MalwareSandbox - INFO - 
+[2/4] Performing YARA Scan...
+2026-03-22 16:50:24,193 - MalwareSandbox - INFO - No YARA matches found
+2026-03-22 16:50:24,195 - MalwareSandbox - INFO - 
+[3/4] APK Analysis Complete
+2026-03-22 16:50:24,197 - MalwareSandbox - INFO - [4/4] Generating Final Report...
+2026-03-22 16:50:24,199 - MalwareSandbox - INFO - APK reports saved to: /home/hero/Desktop/tools/TheFatRat/APKS/x86/apk_analysis_results
+2026-03-22 16:50:24,201 - MalwareSandbox - INFO - ============================================================
+2026-03-22 16:50:24,202 - MalwareSandbox - INFO - Analysis completed successfully!
+2026-03-22 16:50:54,121 - MalwareSandbox - INFO - Starting APK Analysis...
+2026-03-22 16:50:54,219 - MalwareSandbox - INFO - Found AndroidManifest.xml, performing basic analysis...
+2026-03-22 16:50:54,223 - MalwareSandbox - INFO - 
+==================================================
+ANDROID APK ANALYSIS REPORT
+==================================================
+File: /home/hero/Desktop/tools/TheFatRat/APKS/armeabi-v7a/AdobeReader.apk
+
+File Hashes:
+  MD5: 93de85925c2848a124de4972b3b2304b
+  SHA1: c990e405708e84bde585bda65ddc1ee9e32f01f1
+  SHA256: 2ff57944694e7c8da28be73e7b185b3147e0010f4ceb296702ab9b123405e7ff
+
+Suspicious Indicators Found:
+  [!] Suspicious files: lib/armeabi-v7a/libAdobeReader.so
+
+2026-03-22 16:50:54,226 - MalwareSandbox - INFO - APK reports saved to: /home/hero/Desktop/tools/TheFatRat/APKS/armeabi-v7a/apk_analysis_results
+2026-03-22 16:51:05,905 - MalwareSandbox - INFO - Generating comprehensive report...
+2026-03-22 16:51:05,998 - MalwareSandbox - INFO - Found AndroidManifest.xml, performing basic analysis...
+2026-03-22 16:51:06,005 - MalwareSandbox - INFO - Report saved to: report_apk_20260322_165106.txt
+2026-03-22 16:51:06,007 - MalwareSandbox - INFO - 
+==================================================
+ANDROID APK ANALYSIS REPORT
+==================================================
+File: /home/hero/Desktop/tools/TheFatRat/APKS/armeabi-v7a/AdobeReader.apk
+
+File Hashes:
+  MD5: 93de85925c2848a124de4972b3b2304b
+  SHA1: c990e405708e84bde585bda65ddc1ee9e32f01f1
+  SHA256: 2ff57944694e7c8da28be73e7b185b3147e0010f4ceb296702ab9b123405e7ff
+
+Suspicious Indicators Found:
+  [!] Suspicious files: lib/armeabi-v7a/libAdobeReader.so
+
+2026-03-22 17:00:15,942 - MalwareSandbox - WARNING - YARA rules directory not found: rules/

@@ -1,0 +1,13 @@
+
+==================================================
+ANDROID APK ANALYSIS REPORT
+==================================================
+File: /home/hero/Desktop/tools/TheFatRat/APKS/armeabi-v7a/AdobeReader.apk
+
+File Hashes:
+  MD5: 93de85925c2848a124de4972b3b2304b
+  SHA1: c990e405708e84bde585bda65ddc1ee9e32f01f1
+  SHA256: 2ff57944694e7c8da28be73e7b185b3147e0010f4ceb296702ab9b123405e7ff
+
+Suspicious Indicators Found:
+  [!] Suspicious files: lib/armeabi-v7a/libAdobeReader.so

@@ -1,0 +1,50 @@
+{
+    "monitor_dir": "/home/hero/sandbox",
+    "network_monitoring": true,
+    "process_monitoring": true,
+    "registry_monitoring": true,
+    "api_hooking": false,
+    "yara_rules_path": "rules/",
+    "virustotal_api_key": "",
+    "timeout_seconds": 300,
+    "log_level": "INFO",
+    "suspicious_ips": [
+        "185.130.5.253",
+        "94.102.61.78",
+        "45.155.205.233"
+    ],
+    "suspicious_processes": [
+        "powershell",
+        "cmd",
+        "wscript",
+        "cscript",
+        "regsvr32",
+        "rundll32",
+        "mshta",
+        "wmic"
+    ],
+    "persistence_locations": [
+        "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+        "Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce",
+        "Software\\Microsoft\\Windows\\CurrentVersion\\Policies",
+        "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved"
+    ],
+    "android_suspicious_permissions": [
+        "android.permission.READ_SMS",
+        "android.permission.SEND_SMS",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.CAMERA",
+        "android.permission.READ_CONTACTS",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.INSTALL_PACKAGES",
+        "android.permission.REQUEST_INSTALL_PACKAGES",
+        "android.permission.SYSTEM_ALERT_WINDOW"
+    ],
+    "android_suspicious_components": [
+        "SmsReceiver",
+        "BootReceiver",
+        "SmsService",
+        "NotificationListener",
+        "AccessibilityService"
+    ]
+}
